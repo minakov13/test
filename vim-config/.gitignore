@@ -1,0 +1,15 @@
+#
+# GIT ignore rules
+#
+
+# Too big and may be easily downloaded separately.
+spell/*
+
+# Bundle directory is maintained by Vundle plugin.
+bundle/*
+
+# History and other personal files must not be available elsewhere.
+session.vim
+.netrwhist
+swap/*
+backups/*
